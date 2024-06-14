@@ -66,6 +66,85 @@ function Projects() {
           </div>
         </div>
         <hr className="w-full mt-10" />
+        <div className="w-full flex justify-around mt-10 ">
+          <div className="w-[50%]">
+            <div className="bg-[#715df5] rounded-[3rem] py-10 px-20 flex items-center shadow-sm shadow-[#2f275e]">
+              <div className="laptop-anim flex justify-center items-center">
+                <div className="h-full w-full absolute"></div>
+                <Image src="/ajanta.png" alt="mmt23" width={600} height={200} />
+              </div>
+            </div>
+          </div>
+          <div className="w-[40%] pt-4 h-full">
+            <div className="text-4xl">AJANTA SIRSA</div>
+            <div className="mt-4 font-light">
+              <p>
+                A College fest website used for registering for events, seeing
+                events and displaying the theme for the 2023 year NOVA NEXUS.
+                Which symbolizes sustainability via modern norms.
+              </p>
+              <br />
+              Designed the theme on sustainable development using Figma Designs.
+              Established express server for backend and frontend interaction.
+              Deploying and resolving errors on the platform digital ocean.
+              Integrated RazorPay with application for error free, smooth and
+              seemless transactions. Implemented automatic mail system which
+              gives the registrations data in every 24 hours to the college
+              using Node-mailer.
+            </div>
+            <div className="mt-5 flex space-x-3 w-full justify-end">
+              <button className="p-2 bg-black w-fit rounded-[2rem]">
+                <FaCode size={23} />
+              </button>
+              <div className="p-2 bg-black w-fit rounded-[2rem]">
+                <RiExternalLinkLine size={23} />
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr className="w-full mt-10" />
+        <div className="w-full flex justify-around mt-10 ">
+          <div className="w-[50%]">
+            <div className="bg-[#715df5] rounded-[3rem] py-10 px-20 flex items-center shadow-sm shadow-[#2f275e]">
+              <div className="laptop-anim flex justify-center items-center">
+                <div className="h-full w-full absolute"></div>
+                <Image
+                  src="/connective.png"
+                  alt="mmt23"
+                  width={600}
+                  height={200}
+                />
+              </div>
+            </div>
+          </div>
+          <div className="w-[40%] pt-4 h-full">
+            <div className="text-4xl">CONNECTIVE</div>
+            <div className="mt-4 font-light">
+              <p>
+                A College fest website used for registering for events, seeing
+                events and displaying the theme for the 2023 year NOVA NEXUS.
+                Which symbolizes sustainability via modern norms.
+              </p>
+              <br />
+              Designed the theme on sustainable development using Figma Designs.
+              Established express server for backend and frontend interaction.
+              Deploying and resolving errors on the platform digital ocean.
+              Integrated RazorPay with application for error free, smooth and
+              seemless transactions. Implemented automatic mail system which
+              gives the registrations data in every 24 hours to the college
+              using Node-mailer.
+            </div>
+            <div className="mt-5 flex space-x-3 w-full justify-end">
+              <button className="p-2 bg-black w-fit rounded-[2rem]">
+                <FaCode size={23} />
+              </button>
+              <div className="p-2 bg-black w-fit rounded-[2rem]">
+                <RiExternalLinkLine size={23} />
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr className="w-full mt-10" />
       </div>
     </div>
   );
