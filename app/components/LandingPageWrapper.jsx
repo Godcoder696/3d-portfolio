@@ -41,7 +41,7 @@ function LandingPageWrapper() {
             className="overflow-hidden"
           >
             <h1 className="text-7xl font-extrabold text-[#8470ff] head-stroke poppins-medium bg-white py-2 text-anim ">
-              CREATIVE ● DEVELOPER ● DESIGNER ●
+              CREATIVE ● FRONTEND ● BACKEND ● DEVELOPER ●
             </h1>
           </Marquee>
         </div>

@@ -52,7 +52,7 @@
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: black; 
+  background: #dcd7ff; 
   border-radius: 1px;
 }
 

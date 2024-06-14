@@ -6,6 +6,7 @@ import NavBar from "./layouts/NavBar";
 import { gsap } from "gsap";
     
 import { TextPlugin } from "gsap/TextPlugin";
+import Projects from "./layouts/Projects";
 
 
 gsap.registerPlugin(TextPlugin);
@@ -17,6 +18,7 @@ export default function Home() {
       <LandingPage/>
       <About/>
       <Experience/>
+      <Projects/>
     </main>
   );
 }
