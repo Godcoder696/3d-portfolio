@@ -26,14 +26,14 @@ function Character() {
         src="/Light_Ray.png"
         width={500}
         height={500}
-        className="absolute -mt-28 light-ray"
+        className="absolute -mt-64 md-mt-28 light-ray"
         alt="Character"
       />
       <Image
         src="/Character2.png"
         width={600}
         height={500}
-        className="absolute character myCharacter"
+        className="absolute character myCharacter "
         alt="Character"
       />
     </>

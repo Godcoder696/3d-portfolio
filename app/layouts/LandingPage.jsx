@@ -12,6 +12,4 @@ function LandingPage() {
   );
 }
 
-// 8470ff
-
 export default LandingPage;

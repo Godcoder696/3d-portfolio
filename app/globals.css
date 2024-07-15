@@ -60,3 +60,7 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #dcd7ff; 
 }
+
+body{
+  overflow-x: hidden;
+}
