@@ -23,6 +23,9 @@ function Projects() {
       }
     );
   }, []);
+  const img =
+    "https://res.cloudinary.com/dsnfwiuid/image/upload/v1721064405/mmt23_ohpr7z.png";
+
   return (
     <div className="pt-20 md:pt-32 w-[90%] flex flex-col items-center">
       <div className="text-sm">[ PROJECTS ]</div>
@@ -33,7 +36,7 @@ function Projects() {
             <div className="bg-[#715df5] rounded-[0.5rem] md:rounded-[3rem] p-3 md:p-6 lg:py-10 lg:px-20 flex items-center shadow-sm shadow-[#2f275e]">
               <div className="laptop-anim flex justify-center items-center">
                 <div className="h-full w-full absolute"></div>
-                <Image src="/mmt23.png" alt="mmt23" width={600} height={200} />
+                <Image src={img} alt="mmt23" width={600} height={200} />
               </div>
             </div>
           </div>

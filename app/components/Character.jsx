@@ -30,7 +30,7 @@ function Character() {
         alt="Character"
       />
       <Image
-        src="/Character2.png"
+        src="https://res.cloudinary.com/dsnfwiuid/image/upload/v1721064402/Character2_hptbrb.png"
         width={600}
         height={500}
         className="absolute character myCharacter "

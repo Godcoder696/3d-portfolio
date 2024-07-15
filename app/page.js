@@ -23,6 +23,7 @@ export default function Home() {
         <Projects/> 
       </main>
         <Footer/>
+        
     </>
   );
 }
