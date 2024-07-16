@@ -7,7 +7,7 @@
   color: white;
 }
 .head-stroke{
-  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: white;
 }
 .poppins-medium{
