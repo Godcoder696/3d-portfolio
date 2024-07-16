@@ -18,9 +18,9 @@ function Experience() {
     autoplay: true,
   };
   return (
-    <div className=" pt-20 md:pt-32 w-[90%] flex flex-col items-center text-anim1">
+    <div className="pt-20 md:pt-32 w-[90%] flex flex-col items-center text-anim1">
       <div className="text-sm">[ EXPERIENCE ]</div>
-      <div className="w-screen px-24 container">
+      <div className="w-screen px-10 sm:px-0 lg:px-24 container">
         <Slider {...settings}>
           <SingleExperience />
 
