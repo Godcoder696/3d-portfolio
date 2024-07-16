@@ -21,9 +21,9 @@ function NavBar() {
     );
   }, []);
   return (
-    <div className="w-[80%] flex justify-between items-center sticky top-0 my-nav">
+    <div className="w-[80%] flex justify-start items-center sticky top-0 my-nav">
       <Image src="/Logo.png" width={30} height={30} alt="LY" />
-      <IoIosMenu size={40} />
+      {/* <IoIosMenu size={40} /> */}
     </div>
   );
 }

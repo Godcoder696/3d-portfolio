@@ -1,8 +1,12 @@
-import React from "react";
+"use client";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
 
 function Experience() {
   return (
-    <div className=" pt-20 md:pt-32 w-[90%] flex flex-col items-center">
+    <div className=" pt-20 md:pt-32 w-[90%] flex flex-col items-center text-anim1">
       <div className="text-sm">[ EXPERIENCE ]</div>
       <div className="md:min-h-48 bg-[#ffffffb7] w-full mt-10 md:mt-14 rounded-[0.5rem] md:rounded-[3rem] flex">
         <div className="w-2/5 rounded-l-[0.5rem] md:rounded-l-[3rem] bg-[#1f1f1f] flex justify-center items-center px-3 md:p-10">
