@@ -57,11 +57,13 @@ function Projects() {
                     <br />
                   </div>
                   <div className="md:mt-5 flex space-x-3 md:w-full">
-                    <a href={item.github} target="_blank">
-                      <button className="p-2 bg-[#000000] hover:bg-[#343434] w-fit rounded-[2rem]">
-                        <FaCode size={18} />
-                      </button>
-                    </a>
+                    {item.github && (
+                      <a href={item.github} target="_blank">
+                        <button className="p-2 bg-[#000000] hover:bg-[#343434] w-fit rounded-[2rem]">
+                          <FaCode size={18} />
+                        </button>
+                      </a>
+                    )}
                     {item.website && (
                       <a href={item.website} target="_blank">
                         <div className="p-2 bg-[#000000] hover:bg-[#343434] w-fit rounded-[2rem]">

@@ -1,5 +1,13 @@
 export const projects=[
     {
+      title:"MOMENTUM 2024",
+      mobile: "COMING SOON with new and better features...",
+      desktop: "COMING SOON with new and better features...",
+      url:"/mmt24.png",
+      github: null,
+      website: "https://momentum.ncuindia.edu"
+    },
+    {
       title:"SMART WASTE SEGREGATOR",
       mobile: "A solution providing effective segregation of dry and wet waste precisely using moisture levels as primary parameters to achieve the same. The web based console provides login, insights if the individual dustbins, analytics & route optimization feature to effectively collect and dispose waste with a optimized route to mavigate through.",
       desktop: "A solution for precise segregation of dry and wet waste based on moisture levels is implemented through smart bins. A web-based console offers login access, real-time insights into individual dustbins, and advanced analytics. It features a route optimization tool to efficiently plan waste collection routes, reducing time and fuel consumption. This system enhances waste management by improving segregation accuracy and streamlining the disposal process through optimized navigation for collection vehicles.",
