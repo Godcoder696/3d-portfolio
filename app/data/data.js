@@ -1,8 +1,16 @@
 export const projects=[
     {
+      title:"CodeNull",
+      mobile: "Coming Soon....",
+      desktop: "Coming Soon....",
+      url:"/CodeNull.png",
+      github: null,
+      website: null
+    },
+    {
       title:"MOMENTUM 2024",
-      mobile: "COMING SOON with new and better features...",
-      desktop: "COMING SOON with new and better features...",
+      mobile: "A college fest site for event registration and showcasing the 2023 theme 'NOVA NEXUS' on sustainability. Uses Figma for design, Express.js for backend, deployed on DigitalOcean, with RazorPay and NodeMailer integration.",
+      desktop: "A College fest website used for registering for events, seeing events and displaying the theme for the 2023 year 'NOVA NEXUS'. Which symbolizes sustainability via modern norms. Designed the theme on sustainable development using Figma Designs.Established express server for backend and frontend interaction. Deploying and resolving errors on the platform digital ocean.Integrated RazorPay with application for error free, smooth and seemless transactions. Implemented automatic mail system which gives the registrations data in every 24 hours to the collegeusing Node-mailer.",
       url:"/mmt24.png",
       github: null,
       website: "https://momentum.ncuindia.edu"
@@ -13,14 +21,6 @@ export const projects=[
       desktop: "A solution for precise segregation of dry and wet waste based on moisture levels is implemented through smart bins. A web-based console offers login access, real-time insights into individual dustbins, and advanced analytics. It features a route optimization tool to efficiently plan waste collection routes, reducing time and fuel consumption. This system enhances waste management by improving segregation accuracy and streamlining the disposal process through optimized navigation for collection vehicles.",
       url:"/SWS.png",
       github:"https://github.com/Godcoder696/smart-waste-management",
-      website:null
-    },
-    {
-      title:"MOMENTUM 2023",
-      mobile: "A college fest site for event registration and showcasing the 2023 theme 'NOVA NEXUS' on sustainability. Uses Figma for design, Express.js for backend, deployed on DigitalOcean, with RazorPay and NodeMailer integration.",
-      desktop: "A College fest website used for registering for events, seeing events and displaying the theme for the 2023 year 'NOVA NEXUS'. Which symbolizes sustainability via modern norms. Designed the theme on sustainable development using Figma Designs.Established express server for backend and frontend interaction. Deploying and resolving errors on the platform digital ocean.Integrated RazorPay with application for error free, smooth and seemless transactions. Implemented automatic mail system which gives the registrations data in every 24 hours to the collegeusing Node-mailer.",
-      url:"https://res.cloudinary.com/dsnfwiuid/image/upload/v1721064405/mmt23_ohpr7z.png",
-      github:"https://github.com/MOMENTUM-NCU/mmt-2023",
       website:null
     },
     {
