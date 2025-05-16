@@ -1,11 +1,11 @@
 export const projects=[
     {
       title:"CodeNull",
-      mobile: "Coming Soon....",
-      desktop: "Coming Soon....",
+      mobile: "In Progress...",
+      desktop: "In Progress....",
       url:"/CodeNull.png",
       github: null,
-      website: null
+      website: "https://code-null.vercel.app/",
     },
     {
       title:"MOMENTUM 2024",
