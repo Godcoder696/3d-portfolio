@@ -43,8 +43,16 @@ export const projects=[
 
 export const experience= [
     {
+        designation: "ANALYST 1",
+        date: "28/7/2025 - Present",
+        description: "",
+        imgURL: "https://cdn.cookielaw.org/logos/e398929d-19d8-4936-8936-5b2be51a20f3/01932f85-690a-7486-8f91-b5bbf9dbc75e/03109416-6be7-4b9d-a02b-bfeae5a5d5e8/ey-white-logo.png.rendition.3840.2560.png",
+        bgColor: "2e2e38",
+        class: "w-2/5 rounded-l-[0.5rem] md:rounded-l-[3rem] flex justify-center items-center px-2 md:p-10 bg-[#2e2e38]"
+    },
+    {
         designation: "FULL STACK DEVELOPER",
-        date: "1/4/2024 - Present",
+        date: "1/4/2024 - 15/6/2025",
         description: "Integrating client systems with zoho CRM. Designing & Developing Frontend based applications according to client needs using React/ Next Js. Developing & testing backend Restful API's. Rewamping Company's website to a new code base.",
         imgURL: "https://digismiths.com/wp-content/uploads/2023/01/digismiths-logo-black-theme.svg",
         bgColor: "",
